@@ -1,0 +1,5 @@
+{
+  "name": "inventory",
+  "main": "./inventory.cjs",
+  "types": "./inventory.d.ts"
+}
