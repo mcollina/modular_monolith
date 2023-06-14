@@ -1,5 +1,5 @@
 {
-  "$schema": "https://platformatic.dev/schemas/v0.19.4/service",
+  "$schema": "https://platformatic.dev/schemas/v0.20.0/service",
   "server": {
     "hostname": "{PLT_SERVER_HOSTNAME}",
     "port": "{PORT}",
@@ -11,8 +11,13 @@
     "openapi": true
   },
   "plugins": {
-    "paths": [
-      "./app.js"
-    ]
+    "paths": [{
+      "path": "./plugins",
+      "encapsulate": false
+    }, {
+      "path": "./modules",
+      "encapsulate": false,
+      "maxDepth": 1
+    }]
   }
 }

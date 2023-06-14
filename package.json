@@ -18,6 +18,6 @@
     "fastify": "^4.15.0",
     "fastify-plugin": "^4.5.0",
     "pino-pretty": "^10.0.0",
-    "platformatic": "^0.19.4"
+    "platformatic": "^0.26.1"
   }
 }
